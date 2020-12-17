@@ -1,0 +1,35 @@
+html{
+    box-sizing: border-box;
+}
+
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+*{
+    text-decoration: none;
+    padding: 0;
+    margin:0;
+    list-style-type: none;
+}
+.btn:focus{
+    outline: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 20px;
+}
+.pd-rt-20{
+    padding: 0px 20px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }

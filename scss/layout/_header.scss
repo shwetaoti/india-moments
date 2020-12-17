@@ -1,0 +1,35 @@
+
+.header{
+    height: auto;
+    background-color: $secondary-color;
+       .header_main{
+            display: flex;
+            justify-content: space-between;
+              label.logo{ padding: 15px 0px;margin: 0 40px;
+                      img {
+                          width: 170px;
+                         
+                          }
+                       }
+                   }
+                nav { line-height: 103px; margin: 0 40px;
+                    ul{
+                        li{
+                            display: inline-block;
+                            margin: 0 10px;
+                            line-height: 80px;
+                            a{
+                               li.scroll{
+                                   a.book-now{
+                                       background-color: red;
+                                       padding: 20px;
+                                   }
+
+                               }
+                            }
+                        }
+                    }
+
+                }
+}
+

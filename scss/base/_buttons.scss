@@ -1,0 +1,19 @@
+
+.btn{
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    padding: .975rem 2.85rem;
+    font-size: 14px;
+    line-height: 1.4;
+    outline: none;
+}
+
+.button-basic{
+    background: $primary-color;
+    border: 1px solid $primary-color;
+    color: $white;
+    padding: .975rem 2.85rem;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
