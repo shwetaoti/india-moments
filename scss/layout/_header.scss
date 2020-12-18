@@ -18,18 +18,14 @@
                             display: inline-block;
                             margin: 0 10px;
                             line-height: 80px;
-                            a{
-                               li.scroll{
-                                   a.book-now{
-                                       background-color: red;
-                                       padding: 20px;
+                        .book-now{
+                                      @extend .btn;
                                    }
 
                                }
                             }
                         }
                     }
-
-                }
-}
+                
+              
 

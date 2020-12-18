@@ -1,14 +1,15 @@
 
+
 .btn{
     font-weight: 400;
     text-align: center;
     cursor: pointer;
-    padding: .975rem 2.85rem;
+    padding: 10px 20px;
     font-size: 14px;
     line-height: 1.4;
     outline: none;
+    background-color: $black;
 }
-
 .button-basic{
     background: $primary-color;
     border: 1px solid $primary-color;

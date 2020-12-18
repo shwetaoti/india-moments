@@ -14,7 +14,7 @@ html {
   margin: 0;
   list-style-type: none; }
 
-.btn:focus, .about .about_main .about--right h2 button.btn:focus {
+.btn:focus, .header nav ul li .book-now:focus, .about .about_main .about--right h2 button.btn:focus {
   outline: none; }
 
 .container {
@@ -33,14 +33,15 @@ html {
   flex: 0 0 auto;
   width: 33.3333333333%; }
 
-.btn, .about .about_main .about--right h2 button.btn {
+.btn, .header nav ul li .book-now, .about .about_main .about--right h2 button.btn {
   font-weight: 400;
   text-align: center;
   cursor: pointer;
-  padding: .975rem 2.85rem;
+  padding: 10px 20px;
   font-size: 14px;
   line-height: 1.4;
-  outline: none; }
+  outline: none;
+  background-color: #000; }
 
 .button-basic, .about .about_main .about--right h2 button.btn {
   background: #dc4c46;
@@ -105,9 +106,6 @@ a {
       display: inline-block;
       margin: 0 10px;
       line-height: 80px; }
-      .header nav ul li a li.scroll a.book-now {
-        background-color: red;
-        padding: 20px; }
 
 .banner {
   background-image: url(../images/bg4.jpg);
